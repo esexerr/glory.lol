@@ -1,0 +1,368 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #151515;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+  .navbar {
+  
+    position: fixed;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 10%;
+    background-color: #1d1d1d99;
+    opacity: 0.8; 
+    border-radius: 20px;
+    border: 1px solid #1d1d1de1;
+  
+  }
+  
+  .login {
+  
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  left: 80%;
+  font-family: "DM Sans", sans-serif;
+  top: 42px;
+  text-decoration: none;
+  
+  
+  }
+  
+  .login::after {
+    content: "";
+    position: absolute;
+    display: none;
+    width: 70px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust opacity as needed */
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .login:hover::after {
+    
+    display: block;
+  
+  }
+  
+  
+  .register {
+  
+  color: white;
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  position: fixed;
+  left: 84%;
+  top: 42px;
+  text-decoration: none;
+  
+  }
+  
+  .register::after {
+    content: "";
+    position: absolute;
+    display: none;
+    width: 90px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust opacity as needed */
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .register:hover::after {
+    
+    display: block;
+  
+  }
+  
+  .discord::after {
+    content: "";
+    position: absolute;
+    display: none;
+    width: 90px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust opacity as needed */
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .discord:hover::after {
+    
+    display: block;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  .logo {
+  position: fixed;
+  left: 13%;
+  top: 15px;
+  height: 80px;
+  width: 80px;
+  text-decoration: none;
+  
+  }
+  
+  .discord {
+  
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  position: fixed;
+  left: 75%;
+  top: 42px;
+  color: white;
+    
+  }
+    
+  
+  .header {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 54px;
+  }
+  
+  .p1 {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #D3D3D3 ;
+  }
+  
+  .logo-text {
+  position: fixed;
+  left: 18%;
+  text-decoration: none;
+  color: white;
+  }
+  
+  .logo-dot {
+    position: fixed;
+    left: 22.3%;
+    color: #445681;
+    text-decoration: none;
+  }
+  
+  .learnmore {
+  
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    width: 200px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 50px; 
+    background: linear-gradient(to right, #272c38, #101419);
+    border: 1px solid #2f414b;
+    text-decoration: none;
+  
+  
+  }
+  
+  .example {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 300px;
+    transform: rotate(-7deg)
+  }
+  
+  
+  .example1 {
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 300px;
+    transform: rotate(7deg)
+    }
+  
+    .arrow {
+      position: absolute;
+      bottom: 0; /* Position the arrow at the bottom */
+      left: 47.5%; /* Center horizontally */
+      transform: translateX(-50%); /* Move it back by half its width */
+      height: 100px;
+      width: 100px;
+      animation: bounce 1s infinite;
+    }
+    
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); /* Start and end position */
+    }
+    50% {
+      transform: translateY(-20px); /* Midway position (up) */
+    }
+  }
+  
+  /* App.css */
+  .email {
+    position: fixed;
+    background-color:rgb( 255,255,255);
+    border-radius: 8px;
+    border: 1px solid #00000041;
+    width: 300px;
+    height: 40px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+  
+    
+  }
+
+  .password {
+    position: fixed;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #00000041;
+    width: 300px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+  color: #000000;
+    /* hide input content using type="password" attribute */
+    -webkit-text-security: disc;
+  
+  }
+  /* Modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(255, 255, 255, 0.2); /* semi-transparent background */
+    overflow-y: hidden; // hide vertical
+  }
+  
+  .modal.open {
+    display: block; /* Show the modal when open class is applied */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    z-index: 2;
+    background-color: #151515;
+    margin: 15% auto;
+    border-radius: 12px;
+   transform: translateY(-100px);
+   padding: 20px;
+    border: 2px solid #474646;
+    width: 20%;
+    height: 60%;
+    overflow-y: hidden; // hide vertical
+  }
+  
+  .submit {
+    position: fixed;
+    border-radius: 12px;
+    border: 0px solid;
+    width: 200px;
+    height: 40px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff; 
+    color: black; 
+    font-family: DM Sans, sans-serif;
+    font-weight: 550;
+    font-size: 19px;
+  }
+  
+    
+  
+  .modal-title {
+  
+  font-family: DM Sans, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  transform: translateY(50px);
+  position: flex;
+  text-align: center;
+  }
+
+  .modal-title1 {
+  
+    font-family: DM Sans, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    transform: translateY(50px);
+    position: flex;
+    text-align: center;
+    }
+
+  /* Close Button */
+  .close {
+    color: #aaa;
+    float: left;
+    top: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+  }
+  
